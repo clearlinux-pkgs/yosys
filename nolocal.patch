@@ -1,0 +1,11 @@
+--- v/Makefile~	2025-06-09 05:23:54.000000000 +0000
++++ v/Makefile	2025-06-09 15:27:54.189564441 +0000
+@@ -60,7 +60,7 @@
+ PROGRAM_PREFIX :=
+ 
+ OS := $(shell uname -s)
+-PREFIX ?= /usr/local
++PREFIX ?= /usr
+ INSTALL_SUDO :=
+ ifneq ($(filter MINGW%,$(OS)),)
+ OS := MINGW

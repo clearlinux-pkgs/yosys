@@ -3,3 +3,6 @@ bison
 flex
 libffi-dev
 pkgconfig(zlib)
+readline-dev
+tcl
+tcl-dev
