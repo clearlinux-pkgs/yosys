@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : yosys
-Version  : 0.54
-Release  : 2
-URL      : https://github.com/YosysHQ/yosys/releases/download/v0.54/yosys.tar.gz
-Source0  : https://github.com/YosysHQ/yosys/releases/download/v0.54/yosys.tar.gz
+Version  : 0.55
+Release  : 3
+URL      : https://github.com/YosysHQ/yosys/releases/download/v0.55/yosys.tar.gz
+Source0  : https://github.com/YosysHQ/yosys/releases/download/v0.55/yosys.tar.gz
 Summary  : @PROJECT_DESCRIPTION@
 Group    : Development/Tools
 License  : BSD-3-Clause MIT bzip2-1.0.5
@@ -91,7 +91,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1749484472
+export SOURCE_DATE_EPOCH=1751900587
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -125,7 +125,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1749484472
+export SOURCE_DATE_EPOCH=1751900587
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/yosys
 cp %{_builddir}/yosys.tar/abc/src/bdd/cudd/license %{buildroot}/usr/share/package-licenses/yosys/af63e05f5b9b61148165ffd906d5b5340c53dfa4 || :
